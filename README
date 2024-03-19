@@ -1,0 +1,24 @@
+## 这是一个可以在特定区域实现自动登录的小玩意
+
+如果需要修改需要安装以下的库
+
+```
+bs4
+scapy.all
+requests
+winreg
+threading
+pystray
+PIL
+MenuItem
+tkinter
+```
+
+## 打包成exe
+
+安装pyinstaller
+
+然后
+```cmd
+pyinstaller -F -w Autologin.py
+```
