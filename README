@@ -20,5 +20,5 @@ tkinter
 
 然后
 ```cmd
-pyinstaller -F -w Autologin.py
+pyinstaller -F -w Autologin.py -i ico.ico
 ```
