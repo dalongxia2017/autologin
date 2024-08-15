@@ -270,7 +270,7 @@ menu = (MenuItem(text='打开窗口', action=show_window,default=True),
         MenuItem(text='退出', action=on_exit)
         )
 image = Image.open("ico.ico")
-icon = pystray.Icon("cshrimp-autologin", image, "广信自动登录程序", menu)
+icon = pystray.Icon("cshrimp-autologin", image, "自动登录程序", menu)
 
 
 # endregion
